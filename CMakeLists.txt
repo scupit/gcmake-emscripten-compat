@@ -1,5 +1,7 @@
 cmake_minimum_required( VERSION 3.24 )
-project( gcmake-emscripten-compat )
+project( gcmake-emscripten-compat
+  VERSION "1.0.0"
+)
 
 if( NOT TARGET emscripten-compat_NODEFS )
   add_library( emscripten-compat_NODEFS INTERFACE )
